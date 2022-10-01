@@ -1,0 +1,26 @@
+@media only screen and (max-width: 768px) {
+    .col-1 {
+       width: 33.3333333333333% !important;
+    }
+}
+
+@keyframes posicionhover {
+    to {background-color: lightgray;}
+}
+
+@keyframes mostrarmenuLateral {
+    
+}
+
+.col-1 {
+
+    height: 150px;
+    width: 150px;
+
+}
+
+.col-1:hover {
+
+    animation: posicionhover 0.5s forwards;
+
+}
